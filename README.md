@@ -1,7 +1,7 @@
 <h2><b>Widget zur Anzeige von SMAPortal-Daten im FHEM Tablet UI</b></h2>
 
-Dieses Widget ist f?r den Einsatz von FHEM Tablet UI 2.x vorgesehen.
-Voraussetung ist das Vorhandensein des SMAPortal-Grafikdevices.
+Dieses Widget ist für den Einsatz von FHEM Tablet UI 2.x vorgesehen.
+Voraussetzung ist das Vorhandensein von SMAPortal-Grafikdevices.
 Grafikdevices werden im existierenden SMAPortal FHEM-Device angelegt 
 mit:
 
