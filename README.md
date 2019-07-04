@@ -16,6 +16,14 @@ Das entstandene Device ist im Attribut "data-device" des Widgets einzutragen.
 Die Datei widget_smaportalspg.js muss in das js Verzeichnis der fhem-tablet-ui installation und 
 die Datei ftui_smaportalspg.css in das entsprechende css-Verzeichnis.
 
+In FHEM kann dazu der Befehl:
+
+     update all https://raw.githubusercontent.com/nasseeder1/fhem-ftui_smaportalspg_widget/master/controls_smaportalspg_widget.txt
+     
+verwendet werden um die Dateien einmalig zu installieren. Sollen die DAteien in den regelmäßigen update-Prozess mit eingebunden werden, kann das control-File in FHEM integriert werden:
+
+     update add https://raw.githubusercontent.com/nasseeder1/fhem-ftui_smaportalspg_widget/master/controls_smaportalspg_widget.txt
+
 <b>Attribute des smaportalspg-Widgets</b>
 
 	data-device 		SMAPortal-Graphicdevice in FHEM, dessen Inhalt angezeigt werden soll 		
