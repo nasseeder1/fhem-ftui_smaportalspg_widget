@@ -27,8 +27,10 @@ verwendet werden um die Dateien einmalig zu installieren. Sollen die DAteien in 
 <b>Attribute des smaportalspg-Widgets</b>
 
 	data-device 		SMAPortal-Graphicdevice in FHEM, dessen Inhalt angezeigt werden soll 		
-	data-get 		Name des Readings, das eine Änderung des SMAPortalSPG-Devices anzeigt 	default: 'parentState' 	
-	data-max-update 	Maximale Häufigkeit in Sekunden für das Update des SMAPortalSPG-Devices	default: '2'
+	data-get 		Name des Readings, das eine Änderung des SMAPortalSPG-Devices anzeigt 	
+	                        default: 'parentState' 	
+	data-max-update 	Maximale Häufigkeit in Sekunden für das Update des SMAPortalSPG-Devices	
+	                        default: '2'
 
 <b>Beispiel</b>
       
