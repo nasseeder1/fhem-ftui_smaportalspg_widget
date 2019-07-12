@@ -13,20 +13,20 @@ Das entstandene Device ist im Attribut "data-device" des Widgets einzutragen.
 
 <b>Installation</b>
 
-Die Datei widget_smaportalspg.js muss in das js Verzeichnis der fhem-tablet-ui installation und 
-die Datei ftui_smaportalspg.css in das entsprechende css-Verzeichnis.
+Die Datei widget_smaportalspg.js muss in das js Verzeichnis der fhem-tablet-ui Installation und 
+die Datei ftui_smaportalspg.css in das entsprechende css-Verzeichnis kopiert werden.
 
-In FHEM kann dazu der Befehl:
+In FHEM kann der Befehl:
 
      update all https://raw.githubusercontent.com/nasseeder1/fhem-ftui_smaportalspg_widget/master/controls_smaportalspg_widget.txt
      
-verwendet werden um die Dateien einmalig zu installieren. Sollen die DAteien in den regelmäßigen update-Prozess mit eingebunden werden, kann das control-File in FHEM integriert werden:
+verwendet werden um die Dateien einmalig zu installieren. Sollen die Dateien in den regelmäßigen update-Prozess mit eingebunden werden, kann das control-File in FHEM integriert werden:
 
      update add https://raw.githubusercontent.com/nasseeder1/fhem-ftui_smaportalspg_widget/master/controls_smaportalspg_widget.txt
 
 <b>Attribute des smaportalspg-Widgets</b>
 
-	data-device 		SMAPortal-Graphicdevice in FHEM, dessen Inhalt angezeigt werden soll 		
+	data-device 		SMAPortal-Graphikdevice in FHEM, dessen Inhalt angezeigt werden soll 		
 	data-get 		Name des Readings, das eine Änderung des SMAPortalSPG-Devices anzeigt 	
 	                        default: 'parentState' 	
 	data-max-update 	Maximale Häufigkeit in Sekunden für das Update des SMAPortalSPG-Devices	
